@@ -21,7 +21,7 @@ namespace DutchTreat.ViewModels
         public string Subject { get; set; }
 
         [Required]
-        [MaxLength(250, ErrorMessage ="Too long, nigga")]
+        [MaxLength(250, ErrorMessage ="The text is too long")]
         public string Message { get; set; }
     }
 }
